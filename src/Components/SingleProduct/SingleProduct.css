@@ -1,0 +1,16 @@
+.product-container {
+  border: 1px solid gray;
+}
+.product-img {
+  text-align: center;
+}
+.product-img img {
+  width: 210px;
+  height: 210px;
+}
+.product-info {
+  padding: 10px;
+}
+.product-name {
+  margin: 0;
+}
