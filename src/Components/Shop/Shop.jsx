@@ -16,7 +16,17 @@ const Shop = () => {
           <SingleProduct product={product} key={product.id}></SingleProduct>
         ))}
       </div>
-      <div className="cart-container"></div>
+      <div className="cart-container">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          laborum ad quae quod temporibus veritatis qui asperiores, error quos
+          doloribus enim laudantium velit provident autem consequatur? Minus
+          nisi voluptates mollitia accusantium modi nam fugiat repudiandae
+          consectetur natus! Eligendi sapiente delectus quos laboriosam
+          doloremque! Aspernatur veniam accusamus dolor cupiditate ducimus
+          magnam!
+        </p>
+      </div>
     </div>
   );
 };

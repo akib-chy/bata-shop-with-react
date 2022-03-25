@@ -6,5 +6,23 @@
 .products-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 15px;
+  grid-gap: 20px;
+}
+@media screen and (max-width: 768px) {
+  .shop-container {
+    /* padding: 15px; */
+    grid-template-columns: 3fr 2fr;
+  }
+  .products-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 425px) {
+  .shop-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .products-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
