@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "img": "./img/pic-01.jpg",
+    "name": "Mens' Casual Contemporary Beehive Sneaker",
+    "price": 1499,
+    "brande": "Bata"
+  },
+  {
+    "id": 2,
+    "img": "./img/pic-02.jpg",
+    "name": "YAJAN Loafer For Women",
+    "price": 1874,
+    "brande": "Bata"
+  },
+  {
+    "id": 3,
+    "img": "./img/pic-03.jpg",
+    "name": "POWER PRO RUN Sports Sneaker For Men",
+    "price": 2999,
+    "brande": "Bata"
+  },
+  {
+    "id": 4,
+    "img": "./img/pic-04.jpg",
+    "name": "CLADIA Flat Sandal",
+    "price": 1499,
+    "brande": "Bata"
+  },
+  {
+    "id": 5,
+    "img": "./img/pic-05.jpg",
+    "name": "POWER ENGAGE-FLEX +100 Running Sneaker For Men",
+    "price": 2024,
+    "brande": "Bata"
+  },
+  {
+    "id": 6,
+    "img": "./img/pic-06.jpg",
+    "name": "ERIC Casual Sneaker For Men",
+    "price": 1499,
+    "brande": "Bata"
+  },
+  {
+    "id": 7,
+    "img": "./img/pic-07.jpg",
+    "name": "ATLANTIC Formal Shoe For Men",
+    "price": 2249,
+    "brande": "Bata"
+  },
+  {
+    "id": 8,
+    "img": "./img/pic-08.jpg",
+    "name": "ATLANTIC Formal Shoe For Men",
+    "price": 2024,
+    "brande": "Bata"
+  },
+  {
+    "id": 9,
+    "img": "./img/pic-09.jpg",
+    "name": "SARINA Flat Sandal",
+    "price": 1499,
+    "brande": "Bata"
+  },
+  {
+    "id": 10,
+    "img": "./img/pic-10.jpg",
+    "name": "Weinbrenner High-Cut Brown Shoe",
+    "price": 2024,
+    "brande": "Bata"
+  },
+  {
+    "id": 11,
+    "img": "./img/pic-11.jpg",
+    "name": "Men's Casual Open Back Moc-Toe Slippers",
+    "price": 1874,
+    "brande": "Bata"
+  },
+  {
+    "id": 12,
+    "img": "./img/pic-12.jpg",
+    "name": "Riana Sandal For Women By Bata",
+    "price": 1199,
+    "brande": "Bata"
+  }
+]

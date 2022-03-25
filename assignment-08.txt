@@ -1,0 +1,36 @@
+ASSIGNMENT 08
+
+01/ website er ekta nam hoite hobe.
+02/ ekta fake data banaite hobe.
+03/ datar modde ekta img thakbe
+    ekta id thakbe
+    ekta name takbe
+    ekta price thakbe
+
+04/ website a kono warning thaka jabena.
+05/ cart e ekta buttin thakbe jaita hobe add to cart and oikhane ekta icon thakbe card er
+06/ website responsive hoite hobe only mobile device er jonno.
+07/ cart button e click korle item ta card a dekhabe oikhane oitar img thakbe and name thakbe.\
+	opotional// oikhane ekta delete button thake jaita click korle item ta delete hoya jabe.
+
+08/ cart e ekta chose one name ekta button thakbe jaita click korle random vabe jakono ekta chose hove.
+
+
+
+/////BONUS MARKS////
+
+01/ distrucktaring use korte hobe.
+02/ 6ta commit korte hobe.
+03/ readmi file a edit korte hobe name set korte hobe.
+04/ redmi file live site er link dita hobe
+05/ arekta button thakbe jaita click korle cart er sob gola item delete hoya jabe.
+06/ 3ta question er and dita hobe 
+ai 3 ta theke jaikono 2tar ans dita hobe
+	01/how react woeks?
+	02/props vs state?
+	03/ how react state works?
+
+/////OPTIONAL/////
+01/cart e ekta delete button thakbe jaita click korle item ta delete hoya jabe.
+02/ cart e 4tar bashi item add korte caile warning dekhaite hobe.
+03/ same item 2bar add kore jabena add korle warning dita hobe.
