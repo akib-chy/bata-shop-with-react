@@ -1,9 +1,9 @@
 import React from "react";
 import "./SingleProduct.css";
 
-const SingleProduct = ({ product }) => {
-  console.log(product);
+const SingleProduct = ({ addCart, product }) => {
   const { name, img, price, brande, star } = product;
+
   return (
     <div className="product-container">
       <div className="product-img">
@@ -15,7 +15,9 @@ const SingleProduct = ({ product }) => {
         <p>Brand: {brande}</p>
         <p>Star: {star}</p>
       </div>
-      <button className="cart-btn">Add To Cart</button>
+      <button onClick={() => addCart(product)} className="cart-btn">
+        Add To Cart <i className="fa-solid fa-cart-plus"></i>
+      </button>
     </div>
   );
 };
