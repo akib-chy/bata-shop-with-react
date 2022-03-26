@@ -34,7 +34,7 @@ const Question = () => {
           />
         </div>
         <div className="right-part">
-          <h2>How React Works?</h2>
+          <h2>How React State Works?</h2>
           <p>
             A state is an object that stores properties values for those
             attributed to a component that could change over some time. A state
