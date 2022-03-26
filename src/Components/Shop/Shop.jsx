@@ -15,6 +15,15 @@ const Shop = () => {
     const newCart = [...addCart, props];
     setCart(newCart);
   };
+  const randomItem = () => {
+    const random = addCart[Math.floor(Math.random() * addCart.length)];
+    console.log(random);
+  };
+  const ClearCart = () => {
+    document.getElementById("carts-info").textContent = "";
+    addCart.length = 0;
+  };
+  console.log(addCart);
   return (
     <div className="shop-container">
       <div className="products-container">
@@ -26,10 +35,25 @@ const Shop = () => {
           ></SingleProduct>
         ))}
       </div>
-      <div className="cart-container">
-        {addCart.map((product) => (
-          <Cart product={product} key={product.id}></Cart>
-        ))}
+      <div>
+        <div className="carts-container">
+          <div className="sticky-items">
+            <h2 className="cart-title">Selected Items</h2>
+            <div id="carts-info">
+              {addCart.map((product) => (
+                <Cart product={product} key={product.id}></Cart>
+              ))}
+            </div>
+            <div className="cart-btn-container">
+              <button onClick={randomItem} className="cart-btn">
+                Random selected
+              </button>
+              <button onClick={ClearCart} className="cart-btn">
+                Clear Cart
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

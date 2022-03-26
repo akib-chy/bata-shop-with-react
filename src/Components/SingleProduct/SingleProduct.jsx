@@ -15,7 +15,7 @@ const SingleProduct = ({ addCart, product }) => {
         <p>Brand: {brande}</p>
         <p>Star: {star}</p>
       </div>
-      <button onClick={() => addCart(product)} className="cart-btn">
+      <button onClick={() => addCart(product)} className="add-cart-btn">
         Add To Cart <i className="fa-solid fa-cart-plus"></i>
       </button>
     </div>
