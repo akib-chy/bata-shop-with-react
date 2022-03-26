@@ -1,7 +1,7 @@
 ASSIGNMENT 08
 
-01/ website er ekta nam hoite hobe.
-02/ ekta fake data banaite hobe.
+01/ website er ekta nam hoite hobe. (done)
+02/ ekta fake data banaite hobe. (DONE)
 03/ datar modde ekta img thakbe
     ekta id thakbe
     ekta name takbe
