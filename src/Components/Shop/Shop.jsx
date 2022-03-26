@@ -47,8 +47,8 @@ const Shop = () => {
               <div>
                 <h3 className="random-item-title">Use Defult Random Item</h3>
                 <div className="random-item-info">
-                  <img src={random.img} alt="product-img" />
-                  <p>{random.name}</p>
+                  <img src={random.img} alt="" />
+                  <p>{random?.name}</p>
                 </div>
               </div>
             )}

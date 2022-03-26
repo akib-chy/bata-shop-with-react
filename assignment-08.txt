@@ -2,29 +2,29 @@ ASSIGNMENT 08
 
 01/ website er ekta nam hoite hobe. (done)
 02/ ekta fake data banaite hobe. (DONE)
-03/ datar modde ekta img thakbe
-    ekta id thakbe
-    ekta name takbe
-    ekta price thakbe
+03/ datar modde ekta img thakbe (DONE)
+    ekta id thakbe (DONE)
+    ekta name takbe (DONE)
+    ekta price thakbe (DONE)
 
 04/ website a kono warning thaka jabena.
-05/ cart e ekta buttin thakbe jaita hobe add to cart and oikhane ekta icon thakbe card er
-06/ website responsive hoite hobe only mobile device er jonno.
+05/ cart e ekta buttin thakbe jaita hobe add to cart and oikhane ekta icon thakbe card er (DONE)
+06/ website responsive hoite hobe only mobile device er jonno. (DONE)
 07/ cart button e click korle item ta card a dekhabe oikhane oitar img thakbe and name thakbe.\
-	opotional// oikhane ekta delete button thake jaita click korle item ta delete hoya jabe.
+	opotional// oikhane ekta delete button thake jaita click korle item ta delete hoya jabe. (DONE)
 
-08/ cart e ekta chose one name ekta button thakbe jaita click korle random vabe jakono ekta chose hove.
+08/ cart e ekta chose one name ekta button thakbe jaita click korle random vabe jakono ekta chose hove. (DONE)
 
 
 
 /////BONUS MARKS////
 
-01/ distrucktaring use korte hobe.
-02/ 6ta commit korte hobe.
-03/ readmi file a edit korte hobe name set korte hobe.
-04/ redmi file live site er link dita hobe
-05/ arekta button thakbe jaita click korle cart er sob gola item delete hoya jabe.
-06/ 3ta question er and dita hobe 
+01/ distrucktaring use korte hobe. (DONE)
+02/ 6ta commit korte hobe. (DONE)
+03/ readmi file a edit korte hobe name set korte hobe.(DONE)
+04/ redmi file live site er link dita hobe (DONE)
+05/ arekta button thakbe jaita click korle cart er sob gola item delete hoya jabe.(DONE)
+06/ 3ta question er and dita hobe (DONE)
 ai 3 ta theke jaikono 2tar ans dita hobe
 	01/how react woeks?
 	02/props vs state?
