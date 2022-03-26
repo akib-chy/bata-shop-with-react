@@ -5,7 +5,8 @@ import "./Shop.css";
 
 const Shop = () => {
   const [products, setProducts] = useState([]);
-  const [addCart, setCart] = useState([]);
+  const [addCart, setAddCart] = useState([]);
+  const [random, setRandom] = useState([]);
   useEffect(() => {
     fetch("products.json")
       .then((res) => res.json())
@@ -13,19 +14,15 @@ const Shop = () => {
   }, []);
   const handleAddToCart = (props) => {
     const newCart = [...addCart, props];
-    setCart(newCart);
+    setAddCart(newCart);
   };
 
   const randomItem = () => {
     const random = addCart[Math.floor(Math.random() * addCart.length)];
-    console.log(random);
+    setRandom(random);
   };
 
-  const ClearCart = () => {
-    document.getElementById("carts-info").textContent = "";
-    // addCart.length = 0;
-  };
-  console.log(addCart);
+  const handleClearCart = () => setAddCart([]) || setRandom([]);
   return (
     <div className="shop-container">
       <div className="products-container">
@@ -41,17 +38,26 @@ const Shop = () => {
         <div className="carts-container">
           <div className="sticky-items">
             <h2 className="cart-title">Selected Items</h2>
-            <div id="carts-info">
-              {addCart.map((product) => (
-                <Cart product={product} key={product.id}></Cart>
-              ))}
-            </div>
+            {addCart.map((product) => (
+              <Cart product={product} key={product.id}></Cart>
+            ))}
+            {random === undefined ? (
+              []
+            ) : (
+              <div>
+                <h3 className="random-item-title">Use Defult Random Item</h3>
+                <div className="random-item-info">
+                  <img src={random.img} alt="product-img" />
+                  <p>{random.name}</p>
+                </div>
+              </div>
+            )}
             <div className="cart-btn-container">
-              <button onClick={randomItem} className="cart-btn">
-                Random selected
+              <button onClick={randomItem} className="cart-btn random-btn">
+                Choose One For Me
               </button>
-              <button onClick={ClearCart} className="cart-btn">
-                Clear Cart
+              <button onClick={handleClearCart} className="cart-btn clear-btn">
+                Choose Again
               </button>
             </div>
           </div>
