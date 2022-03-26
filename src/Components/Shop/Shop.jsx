@@ -15,13 +15,15 @@ const Shop = () => {
     const newCart = [...addCart, props];
     setCart(newCart);
   };
+
   const randomItem = () => {
     const random = addCart[Math.floor(Math.random() * addCart.length)];
     console.log(random);
   };
+
   const ClearCart = () => {
     document.getElementById("carts-info").textContent = "";
-    addCart.length = 0;
+    // addCart.length = 0;
   };
   console.log(addCart);
   return (

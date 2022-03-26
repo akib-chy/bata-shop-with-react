@@ -1,8 +1,9 @@
 import React from "react";
 import "./Cart.css";
 
-const Cart = ({ product }) => {
-  const { img, name } = product;
+const Cart = (props) => {
+  // console.log(props);
+  const { img, name } = props.product;
 
   const clearItemCart = () => {
     document.getElementById("cart-container").textContent = "";
@@ -12,8 +13,11 @@ const Cart = ({ product }) => {
       <div className="cart-container">
         <img src={img} alt="" />
         <p>{name}</p>
-        <button onClick={clearItemCart}>delete</button>
+        <div className="del-btn" onClick={clearItemCart}>
+          <i class="fa-solid fa-trash-can"></i>
+        </div>
       </div>
+      {/* <h4>{random.name}</h4> */}
     </div>
   );
 };
